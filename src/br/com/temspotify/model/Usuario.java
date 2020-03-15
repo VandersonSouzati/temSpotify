@@ -7,7 +7,7 @@ public class Usuario {
 	private String nome;
 	private String email;
 	private String senha;
-	private List<Playlist> playLists;
+	private List<Playlist> playlists;
 
 	public Usuario() {
 
@@ -29,12 +29,12 @@ public class Usuario {
 		this.nome = nome;
 	}
 
-	public List<Playlist> getPlayLists() {
-		return playLists;
+	public List<Playlist> getPlaylists() {
+		return playlists;
 	}
 
-	public void setPlayLists(List<Playlist> playLists) {
-		this.playLists = playLists;
+	public void setPlaylists(List<Playlist> playLists) {
+		this.playlists = playLists;
 	}
 
 	public String getEmail() {
@@ -53,4 +53,7 @@ public class Usuario {
 		this.senha = senha;
 	}
 
+	public String toString() {
+		return this.id + " - "+this.getNome() + " --- "+this.getEmail();
+	}
 }

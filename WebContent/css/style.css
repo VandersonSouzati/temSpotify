@@ -1,9 +1,10 @@
 
-.tituloPrincipal{
+.centralizarTexto{
 	text-align: center;
 }
 
 body{
 	background-color: rgba(0,0,0,1);
-	color: #ffffff
+	color: #ffffff;
+
 }

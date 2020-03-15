@@ -2,7 +2,7 @@ package br.com.temspotify.dao;
 
 import java.util.List;
 
-public interface GenericDao {
+public interface GenericDAO {
 	public void create(Object o);
 
 	public List<Object> read(Object o);

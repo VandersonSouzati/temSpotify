@@ -20,11 +20,11 @@
 
 		<div class="row">
 			<div class="col-md-12">
-				<h3 class="tituloPrincipal">Tem Spotify, sua playlist na Web</h3>
+				<h3 class="centralizarTexto">Tem Spotify, sua playlist na Web</h3>
 			</div>
 		</div>
 		<div class="row">
-		  <div class="col-md-12">
+		  <div class="col-md-12 centralizarTexto">
 		       <h4>Bem vindo ! ${Usuario.nome}</h4>
 		  </div>
 		</div>
@@ -38,7 +38,7 @@
 		        <a class="nav-link" href="#">Nova Playlist</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href=".\myplaylist">Minha Playlist</a>
+		        <a class="nav-link" href=".\myplaylist">Minha Playlists</a>
 		      </li>
 		      <li class="nav-item">
 		         <a class="nav-link" href="#">Upload Musica</a>

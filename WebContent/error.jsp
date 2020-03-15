@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<jsp:useBean id="erroSTR" type="java.lang.String" scope="request" />
+<jsp:useBean id="erroSTR" type="java.lang.String" scope="session" />
 <html lang="en">
 <head>
 <meta charset="utf-8">

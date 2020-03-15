@@ -29,4 +29,22 @@
 		<servlet-name>MyPlaylistServlet</servlet-name>
 		<url-pattern>/myplaylist</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>CadastroUsuarioServlet</servlet-name>
+	    <servlet-class>br.com.temspotify.controller.CadastroUsuarioServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	   <servlet-name>CadastroUsuarioServlet</servlet-name>
+	   <url-pattern>/novoUsuario</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	   <servlet-name>EfetivarCadastroServlet</servlet-name>
+	   <servlet-class>br.com.temspotify.controller.EfetivarCadastroServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	   <servlet-name>EfetivarCadastroServlet</servlet-name>
+	   <url-pattern>/efetivarCadastro</url-pattern>
+	</servlet-mapping>
 </web-app>
